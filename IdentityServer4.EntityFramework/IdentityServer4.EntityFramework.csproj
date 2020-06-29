@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	  <TargetFrameworks>netcoreapp3.1</TargetFrameworks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\IdentityServer4.EntityFramework.Storage\IdentityServer4.EntityFramework.Storage.csproj" />
+    <ProjectReference Include="..\IdentityServer4\IdentityServer4.csproj" />
+  </ItemGroup>
+
+</Project>
